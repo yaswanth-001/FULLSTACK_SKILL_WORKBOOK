@@ -1,0 +1,2 @@
+This project demonstrates Git version control operations.
+Feature update added in feature-update branch.
