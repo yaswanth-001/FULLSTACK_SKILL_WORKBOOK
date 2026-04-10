@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="student" class="com.inventory.spring_di_xml.Student">
+
+    <constructor-arg value="101"/>
+    <constructor-arg value="Sai"/>
+    <constructor-arg value="Computer Science"/>
+    <constructor-arg value="2"/>
+
+    <property name="course" value="Artificial Intelligence"/>
+    <property name="year" value="2"/>
+
+</bean>
+
+</beans>
